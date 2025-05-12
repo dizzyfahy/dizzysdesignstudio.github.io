@@ -133,11 +133,11 @@ h3 {
 
 img {
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
     position: sticky;
     display: block;
     top: 100px;
-    width: 1300px;
+    width: 450px;
     height: 600px;
     border-radius: 20px;
 }
