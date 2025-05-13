@@ -29,10 +29,11 @@ header {
 nav {
     border: 5px solid rgb(251, 191, 200);
     position: sticky;
-    top: 10px;
+    top: 0;
     display: block;
     background-color: rgb(251, 191, 200);
-    width: 100%;
+    max-width: 100%;
+    margin: 0 20px;
     z-index: 1000;
 }
 
@@ -60,7 +61,7 @@ nav a button{
     color: black;
     background-color: rgb(251, 191, 200);
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 20px; 
     text-decoration: none;
     border: none;
     border-radius: 15px;
@@ -88,19 +89,17 @@ tr {
     max-height: 100%;
 }
 
-td {
-    padding: 5px 20px;
-}
-    
 table tr {
-    border: none;
     position: sticky;
     top: 100px;
-    background-color: rgb(251, 191, 200);
     border-top: none;
     padding-top: none;
 }
 
+td {
+    padding: 20px 20px 150px 20px;
+}
+    
 footer {
     position: relative;
     bottom: 0;
@@ -139,8 +138,13 @@ img {
 }
 
 .home-image img {
-    width: 450px;
+    width: 1400px;
     height: 600px;
+    background-color: transparent;
+}
+
+.home-text {
+    background-color:rgb(251, 191, 200);
 }
 
 .home-table a {
@@ -151,4 +155,5 @@ img {
 
 .home-table p {
     font-family: DynaPuff, system-ui;
+    font-size: 20px;
 }
