@@ -139,8 +139,9 @@ img {
 
 .home-image img {
     width: 1400px;
-    height: 600px;
+    height: auto;
     background-color: transparent;
+    max-width: 100%;
 }
 
 .home-text {
