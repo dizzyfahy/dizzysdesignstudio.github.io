@@ -52,7 +52,7 @@ nav ul li {
 
 nav a button{
     font-family: DynaPuff, system-ui;
-    font-size: 20px;
+    font-size: 20vw;
     font-weight: bold;
     float: left;
     display: block;
@@ -112,7 +112,7 @@ footer {
 
 h1 {
     font-family: 'Lavishly Yours', cursive;
-    font-size: 75px;
+    font-size: 75vw;
     padding: 0;
     margin: 0;
     text-align: center;
