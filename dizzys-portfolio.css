@@ -52,7 +52,7 @@ nav ul li {
 
 nav a button{
     font-family: DynaPuff, system-ui;
-    font-size: 20vw;
+    font-size: 20px;
     font-weight: bold;
     float: left;
     display: block;
@@ -82,13 +82,6 @@ table {
     border: none;
 }
 
-tr {
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
-}
-
 table tr {
     position: sticky;
     top: 100px;
@@ -112,7 +105,7 @@ footer {
 
 h1 {
     font-family: 'Lavishly Yours', cursive;
-    font-size: 75vw;
+    font-size: 75px;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -123,7 +116,7 @@ h2 {
 }
 
 h3 {
-    font-size: 50vw;
+    font-size: 50px;
     font-family: 'Lavishly Yours', cursive;
     padding-bottom: 50px;
     margin: 0;
@@ -156,5 +149,5 @@ img {
 
 .home-table p {
     font-family: DynaPuff, system-ui;
-    font-size: 20vw;
+    font-size: 20px;
 }
